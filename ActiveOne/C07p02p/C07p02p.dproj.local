@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2025/05/15 09:44:03.000.035,=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/05/15 09:56:57.000.782,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\C07p01p.dproj=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2025/05/15 09:57:04.000.287,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\C07p01u.pas=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/05/15 09:57:04.000.287,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\C07p01u.dfm=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2025/05/15 10:33:32.000.805,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\C07p02p.dproj=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\C07p01p.dproj</Transaction>
+    <Transaction>2025/05/15 10:33:40.000.185,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\C07p02u.pas=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\C07p01u.pas</Transaction>
+    <Transaction>2025/05/15 10:33:40.000.185,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\C07p02u.dfm=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\C07p01u.dfm</Transaction>
+    <Transaction>2025/05/15 16:24:34.000.108,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\C07p02p.dproj=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\C07p02p.dproj</Transaction>
+    <Transaction>2025/05/23 17:12:07.000.696,C:\Users\ASINC-RD008\Desktop\ss\C07p02p\C07p02u.dfm=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\C07p02u.dfm</Transaction>
+    <Transaction>2025/05/23 17:12:07.000.696,C:\Users\ASINC-RD008\Desktop\ss\C07p02p\C07p02u.pas=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\C07p02u.pas</Transaction>
+    <Transaction>2025/05/23 17:12:19.000.406,C:\Users\ASINC-RD008\Desktop\ss\C07p02p\C07p02p.dproj=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\C07p02p.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

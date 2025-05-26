@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2025/05/23 16:26:53.000.723,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\ProjectGroup2.groupproj=C:\Users\ASINC-RD008\Desktop\Active\ActiveProject.groupproj</Transaction>
+    <Transaction>2025/05/23 16:45:47.000.487,C:\Users\ASINC-RD008\Desktop\ss\ActiveProject.groupproj=C:\Users\ASINC-RD008\Desktop\Active\ActiveProject.groupproj</Transaction>
+  </Transactions>
+	<Default.Personality>
+		<Projects ActiveProject="C:\Users\ASINC-RD008\Desktop\ActiveOne\C14p03p\C14p03p.dproj"/>
+	</Default.Personality>
+</BorlandProject>

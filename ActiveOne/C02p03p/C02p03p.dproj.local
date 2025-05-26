@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2025/05/09 16:38:42.000.675,=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Unit8.pas</Transaction>
+    <Transaction>2025/05/09 16:45:31.000.530,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\C02p02p.dproj=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2025/05/09 16:45:36.000.057,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\C02p02u.pas=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Unit8.pas</Transaction>
+    <Transaction>2025/05/09 16:45:36.000.057,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\C02p02u.dfm=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Unit8.dfm</Transaction>
+    <Transaction>2025/05/09 16:57:53.000.088,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\C02p03p.dproj=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\C02p02p.dproj</Transaction>
+    <Transaction>2025/05/09 16:57:58.000.018,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\C02p32u.dfm=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\C02p02u.dfm</Transaction>
+    <Transaction>2025/05/09 16:57:58.000.018,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\C02p32u.pas=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\C02p02u.pas</Transaction>
+    <Transaction>2025/05/09 16:59:23.000.840,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\C02p03p.dproj=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\C02p03p.dproj</Transaction>
+    <Transaction>2025/05/13 16:49:26.000.857,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\C02p03u.pas=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\C02p32u.pas</Transaction>
+    <Transaction>2025/05/13 16:49:26.000.857,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\C02p03u.dfm=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\C02p32u.dfm</Transaction>
+    <Transaction>2025/05/23 16:52:28.000.206,C:\Users\ASINC-RD008\Desktop\ss\C02p03p\C02p03u.dfm=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\C01\C02p03u.dfm</Transaction>
+    <Transaction>2025/05/23 16:52:28.000.206,C:\Users\ASINC-RD008\Desktop\ss\C02p03p\C02p03u.pas=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\C01\C02p03u.pas</Transaction>
+    <Transaction>2025/05/23 16:52:40.000.654,C:\Users\ASINC-RD008\Desktop\ss\C02p03p\C02p03p.dproj=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\C01\C02p03p.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,816 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{5FB60023-1A53-4630-92BE-33CAACF26E4F}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="C01p01p\C01p01p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C01p02p\C01p02p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C01p03p\C01p03p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C01p04p\C01p04p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C01p05p\C01p05p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C01p06p\C01p06p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C02p02p\C02p02p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C02p03p\C02p03p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C02p04p\C02p04p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C03p04p\C03p04p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C03p05p\C03p05p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C03p06p\C03p06p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C04p02p\C04p02p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C04p09p\C04p09p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C04p10p\C04p10p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C04p11p\C04p11p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C04p12p\C04p12p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C05p01p\C05p01p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C05p03p\C05p03p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C05p04p\C05p04p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C05p05p\C05p05p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C05p06p\C05p06p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C06p01p\C06p01p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C06p02p\C06p02p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C06p03p\C06p03p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C06p04p\C06p04p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C06p05p\C06p05p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C06p06p\C06p06p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C07p01p\C07p01p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C07p02p\C07p02p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C07p03p\C07p03p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C07p04p\C07p04p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C07p06p\C07p06p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C08p01p\C08p01p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C08p02p\C08p02p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C08p03p\C08p03p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C08p04p\C08p04p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C08p05p\C08p05p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C08p08p\C08p06p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C08p07p\C08p07p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C08p08p\C08p08p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C09p01p\C09p01p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C09p02p\C09p02p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C09p03p\C09p03p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C09p04p\C09p04p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C09p05p\C09p05p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C09p06p\C09p06p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C10p01p\C10p01p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C10p02p\C10p02p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C10p04p\C10p04p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C10p06p\C10p06p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C10p08p\C10p08p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C11p02p\C11p02p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C12p01p\C12p01p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C12p03p\C12p03p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C12p04p\C12p04p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C12p06p\C12p06p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C12p07p\C12p07p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C12p08p\C12p08p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C13p01p\C13p01p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C13p02p\C13p02p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C13p03p\C13p03p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C13p05p\C13p05p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C13p06p\C13p06p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C13p07p\C13p07p.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C14p03p\C14p03p.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="C01p01p">
+        <MSBuild Projects="C01p01p\C01p01p.dproj"/>
+    </Target>
+    <Target Name="C01p01p:Clean">
+        <MSBuild Projects="C01p01p\C01p01p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C01p01p:Make">
+        <MSBuild Projects="C01p01p\C01p01p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C01p02p">
+        <MSBuild Projects="C01p02p\C01p02p.dproj"/>
+    </Target>
+    <Target Name="C01p02p:Clean">
+        <MSBuild Projects="C01p02p\C01p02p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C01p02p:Make">
+        <MSBuild Projects="C01p02p\C01p02p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C01p03p">
+        <MSBuild Projects="C01p03p\C01p03p.dproj"/>
+    </Target>
+    <Target Name="C01p03p:Clean">
+        <MSBuild Projects="C01p03p\C01p03p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C01p03p:Make">
+        <MSBuild Projects="C01p03p\C01p03p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C01p04p">
+        <MSBuild Projects="C01p04p\C01p04p.dproj"/>
+    </Target>
+    <Target Name="C01p04p:Clean">
+        <MSBuild Projects="C01p04p\C01p04p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C01p04p:Make">
+        <MSBuild Projects="C01p04p\C01p04p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C01p05p">
+        <MSBuild Projects="C01p05p\C01p05p.dproj"/>
+    </Target>
+    <Target Name="C01p05p:Clean">
+        <MSBuild Projects="C01p05p\C01p05p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C01p05p:Make">
+        <MSBuild Projects="C01p05p\C01p05p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C01p06p">
+        <MSBuild Projects="C01p06p\C01p06p.dproj"/>
+    </Target>
+    <Target Name="C01p06p:Clean">
+        <MSBuild Projects="C01p06p\C01p06p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C01p06p:Make">
+        <MSBuild Projects="C01p06p\C01p06p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C02p02p">
+        <MSBuild Projects="C02p02p\C02p02p.dproj"/>
+    </Target>
+    <Target Name="C02p02p:Clean">
+        <MSBuild Projects="C02p02p\C02p02p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C02p02p:Make">
+        <MSBuild Projects="C02p02p\C02p02p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C02p03p">
+        <MSBuild Projects="C02p03p\C02p03p.dproj"/>
+    </Target>
+    <Target Name="C02p03p:Clean">
+        <MSBuild Projects="C02p03p\C02p03p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C02p03p:Make">
+        <MSBuild Projects="C02p03p\C02p03p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C02p04p">
+        <MSBuild Projects="C02p04p\C02p04p.dproj"/>
+    </Target>
+    <Target Name="C02p04p:Clean">
+        <MSBuild Projects="C02p04p\C02p04p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C02p04p:Make">
+        <MSBuild Projects="C02p04p\C02p04p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C03p04p">
+        <MSBuild Projects="C03p04p\C03p04p.dproj"/>
+    </Target>
+    <Target Name="C03p04p:Clean">
+        <MSBuild Projects="C03p04p\C03p04p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C03p04p:Make">
+        <MSBuild Projects="C03p04p\C03p04p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C03p05p">
+        <MSBuild Projects="C03p05p\C03p05p.dproj"/>
+    </Target>
+    <Target Name="C03p05p:Clean">
+        <MSBuild Projects="C03p05p\C03p05p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C03p05p:Make">
+        <MSBuild Projects="C03p05p\C03p05p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C03p06p">
+        <MSBuild Projects="C03p06p\C03p06p.dproj"/>
+    </Target>
+    <Target Name="C03p06p:Clean">
+        <MSBuild Projects="C03p06p\C03p06p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C03p06p:Make">
+        <MSBuild Projects="C03p06p\C03p06p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C04p02p">
+        <MSBuild Projects="C04p02p\C04p02p.dproj"/>
+    </Target>
+    <Target Name="C04p02p:Clean">
+        <MSBuild Projects="C04p02p\C04p02p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C04p02p:Make">
+        <MSBuild Projects="C04p02p\C04p02p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C04p09p">
+        <MSBuild Projects="C04p09p\C04p09p.dproj"/>
+    </Target>
+    <Target Name="C04p09p:Clean">
+        <MSBuild Projects="C04p09p\C04p09p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C04p09p:Make">
+        <MSBuild Projects="C04p09p\C04p09p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C04p10p">
+        <MSBuild Projects="C04p10p\C04p10p.dproj"/>
+    </Target>
+    <Target Name="C04p10p:Clean">
+        <MSBuild Projects="C04p10p\C04p10p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C04p10p:Make">
+        <MSBuild Projects="C04p10p\C04p10p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C04p11p">
+        <MSBuild Projects="C04p11p\C04p11p.dproj"/>
+    </Target>
+    <Target Name="C04p11p:Clean">
+        <MSBuild Projects="C04p11p\C04p11p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C04p11p:Make">
+        <MSBuild Projects="C04p11p\C04p11p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C04p12p">
+        <MSBuild Projects="C04p12p\C04p12p.dproj"/>
+    </Target>
+    <Target Name="C04p12p:Clean">
+        <MSBuild Projects="C04p12p\C04p12p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C04p12p:Make">
+        <MSBuild Projects="C04p12p\C04p12p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C05p01p">
+        <MSBuild Projects="C05p01p\C05p01p.dproj"/>
+    </Target>
+    <Target Name="C05p01p:Clean">
+        <MSBuild Projects="C05p01p\C05p01p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C05p01p:Make">
+        <MSBuild Projects="C05p01p\C05p01p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C05p03p">
+        <MSBuild Projects="C05p03p\C05p03p.dproj"/>
+    </Target>
+    <Target Name="C05p03p:Clean">
+        <MSBuild Projects="C05p03p\C05p03p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C05p03p:Make">
+        <MSBuild Projects="C05p03p\C05p03p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C05p04p">
+        <MSBuild Projects="C05p04p\C05p04p.dproj"/>
+    </Target>
+    <Target Name="C05p04p:Clean">
+        <MSBuild Projects="C05p04p\C05p04p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C05p04p:Make">
+        <MSBuild Projects="C05p04p\C05p04p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C05p05p">
+        <MSBuild Projects="C05p05p\C05p05p.dproj"/>
+    </Target>
+    <Target Name="C05p05p:Clean">
+        <MSBuild Projects="C05p05p\C05p05p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C05p05p:Make">
+        <MSBuild Projects="C05p05p\C05p05p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C05p06p">
+        <MSBuild Projects="C05p06p\C05p06p.dproj"/>
+    </Target>
+    <Target Name="C05p06p:Clean">
+        <MSBuild Projects="C05p06p\C05p06p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C05p06p:Make">
+        <MSBuild Projects="C05p06p\C05p06p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C06p01p">
+        <MSBuild Projects="C06p01p\C06p01p.dproj"/>
+    </Target>
+    <Target Name="C06p01p:Clean">
+        <MSBuild Projects="C06p01p\C06p01p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C06p01p:Make">
+        <MSBuild Projects="C06p01p\C06p01p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C06p02p">
+        <MSBuild Projects="C06p02p\C06p02p.dproj"/>
+    </Target>
+    <Target Name="C06p02p:Clean">
+        <MSBuild Projects="C06p02p\C06p02p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C06p02p:Make">
+        <MSBuild Projects="C06p02p\C06p02p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C06p03p">
+        <MSBuild Projects="C06p03p\C06p03p.dproj"/>
+    </Target>
+    <Target Name="C06p03p:Clean">
+        <MSBuild Projects="C06p03p\C06p03p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C06p03p:Make">
+        <MSBuild Projects="C06p03p\C06p03p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C06p04p">
+        <MSBuild Projects="C06p04p\C06p04p.dproj"/>
+    </Target>
+    <Target Name="C06p04p:Clean">
+        <MSBuild Projects="C06p04p\C06p04p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C06p04p:Make">
+        <MSBuild Projects="C06p04p\C06p04p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C06p05p">
+        <MSBuild Projects="C06p05p\C06p05p.dproj"/>
+    </Target>
+    <Target Name="C06p05p:Clean">
+        <MSBuild Projects="C06p05p\C06p05p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C06p05p:Make">
+        <MSBuild Projects="C06p05p\C06p05p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C06p06p">
+        <MSBuild Projects="C06p06p\C06p06p.dproj"/>
+    </Target>
+    <Target Name="C06p06p:Clean">
+        <MSBuild Projects="C06p06p\C06p06p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C06p06p:Make">
+        <MSBuild Projects="C06p06p\C06p06p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C07p01p">
+        <MSBuild Projects="C07p01p\C07p01p.dproj"/>
+    </Target>
+    <Target Name="C07p01p:Clean">
+        <MSBuild Projects="C07p01p\C07p01p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C07p01p:Make">
+        <MSBuild Projects="C07p01p\C07p01p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C07p02p">
+        <MSBuild Projects="C07p02p\C07p02p.dproj"/>
+    </Target>
+    <Target Name="C07p02p:Clean">
+        <MSBuild Projects="C07p02p\C07p02p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C07p02p:Make">
+        <MSBuild Projects="C07p02p\C07p02p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C07p03p">
+        <MSBuild Projects="C07p03p\C07p03p.dproj"/>
+    </Target>
+    <Target Name="C07p03p:Clean">
+        <MSBuild Projects="C07p03p\C07p03p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C07p03p:Make">
+        <MSBuild Projects="C07p03p\C07p03p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C07p04p">
+        <MSBuild Projects="C07p04p\C07p04p.dproj"/>
+    </Target>
+    <Target Name="C07p04p:Clean">
+        <MSBuild Projects="C07p04p\C07p04p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C07p04p:Make">
+        <MSBuild Projects="C07p04p\C07p04p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C07p06p">
+        <MSBuild Projects="C07p06p\C07p06p.dproj"/>
+    </Target>
+    <Target Name="C07p06p:Clean">
+        <MSBuild Projects="C07p06p\C07p06p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C07p06p:Make">
+        <MSBuild Projects="C07p06p\C07p06p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C08p01p">
+        <MSBuild Projects="C08p01p\C08p01p.dproj"/>
+    </Target>
+    <Target Name="C08p01p:Clean">
+        <MSBuild Projects="C08p01p\C08p01p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C08p01p:Make">
+        <MSBuild Projects="C08p01p\C08p01p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C08p02p">
+        <MSBuild Projects="C08p02p\C08p02p.dproj"/>
+    </Target>
+    <Target Name="C08p02p:Clean">
+        <MSBuild Projects="C08p02p\C08p02p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C08p02p:Make">
+        <MSBuild Projects="C08p02p\C08p02p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C08p03p">
+        <MSBuild Projects="C08p03p\C08p03p.dproj"/>
+    </Target>
+    <Target Name="C08p03p:Clean">
+        <MSBuild Projects="C08p03p\C08p03p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C08p03p:Make">
+        <MSBuild Projects="C08p03p\C08p03p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C08p04p">
+        <MSBuild Projects="C08p04p\C08p04p.dproj"/>
+    </Target>
+    <Target Name="C08p04p:Clean">
+        <MSBuild Projects="C08p04p\C08p04p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C08p04p:Make">
+        <MSBuild Projects="C08p04p\C08p04p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C08p05p">
+        <MSBuild Projects="C08p05p\C08p05p.dproj"/>
+    </Target>
+    <Target Name="C08p05p:Clean">
+        <MSBuild Projects="C08p05p\C08p05p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C08p05p:Make">
+        <MSBuild Projects="C08p05p\C08p05p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C08p06p">
+        <MSBuild Projects="C08p08p\C08p06p.dproj"/>
+    </Target>
+    <Target Name="C08p06p:Clean">
+        <MSBuild Projects="C08p08p\C08p06p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C08p06p:Make">
+        <MSBuild Projects="C08p08p\C08p06p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C08p07p">
+        <MSBuild Projects="C08p07p\C08p07p.dproj"/>
+    </Target>
+    <Target Name="C08p07p:Clean">
+        <MSBuild Projects="C08p07p\C08p07p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C08p07p:Make">
+        <MSBuild Projects="C08p07p\C08p07p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C08p08p">
+        <MSBuild Projects="C08p08p\C08p08p.dproj"/>
+    </Target>
+    <Target Name="C08p08p:Clean">
+        <MSBuild Projects="C08p08p\C08p08p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C08p08p:Make">
+        <MSBuild Projects="C08p08p\C08p08p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C09p01p">
+        <MSBuild Projects="C09p01p\C09p01p.dproj"/>
+    </Target>
+    <Target Name="C09p01p:Clean">
+        <MSBuild Projects="C09p01p\C09p01p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C09p01p:Make">
+        <MSBuild Projects="C09p01p\C09p01p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C09p02p">
+        <MSBuild Projects="C09p02p\C09p02p.dproj"/>
+    </Target>
+    <Target Name="C09p02p:Clean">
+        <MSBuild Projects="C09p02p\C09p02p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C09p02p:Make">
+        <MSBuild Projects="C09p02p\C09p02p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C09p03p">
+        <MSBuild Projects="C09p03p\C09p03p.dproj"/>
+    </Target>
+    <Target Name="C09p03p:Clean">
+        <MSBuild Projects="C09p03p\C09p03p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C09p03p:Make">
+        <MSBuild Projects="C09p03p\C09p03p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C09p04p">
+        <MSBuild Projects="C09p04p\C09p04p.dproj"/>
+    </Target>
+    <Target Name="C09p04p:Clean">
+        <MSBuild Projects="C09p04p\C09p04p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C09p04p:Make">
+        <MSBuild Projects="C09p04p\C09p04p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C09p05p">
+        <MSBuild Projects="C09p05p\C09p05p.dproj"/>
+    </Target>
+    <Target Name="C09p05p:Clean">
+        <MSBuild Projects="C09p05p\C09p05p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C09p05p:Make">
+        <MSBuild Projects="C09p05p\C09p05p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C09p06p">
+        <MSBuild Projects="C09p06p\C09p06p.dproj"/>
+    </Target>
+    <Target Name="C09p06p:Clean">
+        <MSBuild Projects="C09p06p\C09p06p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C09p06p:Make">
+        <MSBuild Projects="C09p06p\C09p06p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C10p01p">
+        <MSBuild Projects="C10p01p\C10p01p.dproj"/>
+    </Target>
+    <Target Name="C10p01p:Clean">
+        <MSBuild Projects="C10p01p\C10p01p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C10p01p:Make">
+        <MSBuild Projects="C10p01p\C10p01p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C10p02p">
+        <MSBuild Projects="C10p02p\C10p02p.dproj"/>
+    </Target>
+    <Target Name="C10p02p:Clean">
+        <MSBuild Projects="C10p02p\C10p02p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C10p02p:Make">
+        <MSBuild Projects="C10p02p\C10p02p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C10p04p">
+        <MSBuild Projects="C10p04p\C10p04p.dproj"/>
+    </Target>
+    <Target Name="C10p04p:Clean">
+        <MSBuild Projects="C10p04p\C10p04p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C10p04p:Make">
+        <MSBuild Projects="C10p04p\C10p04p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C10p06p">
+        <MSBuild Projects="C10p06p\C10p06p.dproj"/>
+    </Target>
+    <Target Name="C10p06p:Clean">
+        <MSBuild Projects="C10p06p\C10p06p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C10p06p:Make">
+        <MSBuild Projects="C10p06p\C10p06p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C10p08p">
+        <MSBuild Projects="C10p08p\C10p08p.dproj"/>
+    </Target>
+    <Target Name="C10p08p:Clean">
+        <MSBuild Projects="C10p08p\C10p08p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C10p08p:Make">
+        <MSBuild Projects="C10p08p\C10p08p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C11p02p">
+        <MSBuild Projects="C11p02p\C11p02p.dproj"/>
+    </Target>
+    <Target Name="C11p02p:Clean">
+        <MSBuild Projects="C11p02p\C11p02p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C11p02p:Make">
+        <MSBuild Projects="C11p02p\C11p02p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C12p01p">
+        <MSBuild Projects="C12p01p\C12p01p.dproj"/>
+    </Target>
+    <Target Name="C12p01p:Clean">
+        <MSBuild Projects="C12p01p\C12p01p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C12p01p:Make">
+        <MSBuild Projects="C12p01p\C12p01p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C12p03p">
+        <MSBuild Projects="C12p03p\C12p03p.dproj"/>
+    </Target>
+    <Target Name="C12p03p:Clean">
+        <MSBuild Projects="C12p03p\C12p03p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C12p03p:Make">
+        <MSBuild Projects="C12p03p\C12p03p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C12p04p">
+        <MSBuild Projects="C12p04p\C12p04p.dproj"/>
+    </Target>
+    <Target Name="C12p04p:Clean">
+        <MSBuild Projects="C12p04p\C12p04p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C12p04p:Make">
+        <MSBuild Projects="C12p04p\C12p04p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C12p06p">
+        <MSBuild Projects="C12p06p\C12p06p.dproj"/>
+    </Target>
+    <Target Name="C12p06p:Clean">
+        <MSBuild Projects="C12p06p\C12p06p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C12p06p:Make">
+        <MSBuild Projects="C12p06p\C12p06p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C12p07p">
+        <MSBuild Projects="C12p07p\C12p07p.dproj"/>
+    </Target>
+    <Target Name="C12p07p:Clean">
+        <MSBuild Projects="C12p07p\C12p07p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C12p07p:Make">
+        <MSBuild Projects="C12p07p\C12p07p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C12p08p">
+        <MSBuild Projects="C12p08p\C12p08p.dproj"/>
+    </Target>
+    <Target Name="C12p08p:Clean">
+        <MSBuild Projects="C12p08p\C12p08p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C12p08p:Make">
+        <MSBuild Projects="C12p08p\C12p08p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C13p01p">
+        <MSBuild Projects="C13p01p\C13p01p.dproj"/>
+    </Target>
+    <Target Name="C13p01p:Clean">
+        <MSBuild Projects="C13p01p\C13p01p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C13p01p:Make">
+        <MSBuild Projects="C13p01p\C13p01p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C13p02p">
+        <MSBuild Projects="C13p02p\C13p02p.dproj"/>
+    </Target>
+    <Target Name="C13p02p:Clean">
+        <MSBuild Projects="C13p02p\C13p02p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C13p02p:Make">
+        <MSBuild Projects="C13p02p\C13p02p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C13p03p">
+        <MSBuild Projects="C13p03p\C13p03p.dproj"/>
+    </Target>
+    <Target Name="C13p03p:Clean">
+        <MSBuild Projects="C13p03p\C13p03p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C13p03p:Make">
+        <MSBuild Projects="C13p03p\C13p03p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C13p05p">
+        <MSBuild Projects="C13p05p\C13p05p.dproj"/>
+    </Target>
+    <Target Name="C13p05p:Clean">
+        <MSBuild Projects="C13p05p\C13p05p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C13p05p:Make">
+        <MSBuild Projects="C13p05p\C13p05p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C13p06p">
+        <MSBuild Projects="C13p06p\C13p06p.dproj"/>
+    </Target>
+    <Target Name="C13p06p:Clean">
+        <MSBuild Projects="C13p06p\C13p06p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C13p06p:Make">
+        <MSBuild Projects="C13p06p\C13p06p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C13p07p">
+        <MSBuild Projects="C13p07p\C13p07p.dproj"/>
+    </Target>
+    <Target Name="C13p07p:Clean">
+        <MSBuild Projects="C13p07p\C13p07p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C13p07p:Make">
+        <MSBuild Projects="C13p07p\C13p07p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="C14p03p">
+        <MSBuild Projects="C14p03p\C14p03p.dproj"/>
+    </Target>
+    <Target Name="C14p03p:Clean">
+        <MSBuild Projects="C14p03p\C14p03p.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="C14p03p:Make">
+        <MSBuild Projects="C14p03p\C14p03p.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="C01p01p;C01p02p;C01p03p;C01p04p;C01p05p;C01p06p;C02p02p;C02p03p;C02p04p;C03p04p;C03p05p;C03p06p;C04p02p;C04p09p;C04p10p;C04p11p;C04p12p;C05p01p;C05p03p;C05p04p;C05p05p;C05p06p;C06p01p;C06p02p;C06p03p;C06p04p;C06p05p;C06p06p;C07p01p;C07p02p;C07p03p;C07p04p;C07p06p;C08p01p;C08p02p;C08p03p;C08p04p;C08p05p;C08p06p;C08p07p;C08p08p;C09p01p;C09p02p;C09p03p;C09p04p;C09p05p;C09p06p;C10p01p;C10p02p;C10p04p;C10p06p;C10p08p;C11p02p;C12p01p;C12p03p;C12p04p;C12p06p;C12p07p;C12p08p;C13p01p;C13p02p;C13p03p;C13p05p;C13p06p;C13p07p;C14p03p"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="C01p01p:Clean;C01p02p:Clean;C01p03p:Clean;C01p04p:Clean;C01p05p:Clean;C01p06p:Clean;C02p02p:Clean;C02p03p:Clean;C02p04p:Clean;C03p04p:Clean;C03p05p:Clean;C03p06p:Clean;C04p02p:Clean;C04p09p:Clean;C04p10p:Clean;C04p11p:Clean;C04p12p:Clean;C05p01p:Clean;C05p03p:Clean;C05p04p:Clean;C05p05p:Clean;C05p06p:Clean;C06p01p:Clean;C06p02p:Clean;C06p03p:Clean;C06p04p:Clean;C06p05p:Clean;C06p06p:Clean;C07p01p:Clean;C07p02p:Clean;C07p03p:Clean;C07p04p:Clean;C07p06p:Clean;C08p01p:Clean;C08p02p:Clean;C08p03p:Clean;C08p04p:Clean;C08p05p:Clean;C08p06p:Clean;C08p07p:Clean;C08p08p:Clean;C09p01p:Clean;C09p02p:Clean;C09p03p:Clean;C09p04p:Clean;C09p05p:Clean;C09p06p:Clean;C10p01p:Clean;C10p02p:Clean;C10p04p:Clean;C10p06p:Clean;C10p08p:Clean;C11p02p:Clean;C12p01p:Clean;C12p03p:Clean;C12p04p:Clean;C12p06p:Clean;C12p07p:Clean;C12p08p:Clean;C13p01p:Clean;C13p02p:Clean;C13p03p:Clean;C13p05p:Clean;C13p06p:Clean;C13p07p:Clean;C14p03p:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="C01p01p:Make;C01p02p:Make;C01p03p:Make;C01p04p:Make;C01p05p:Make;C01p06p:Make;C02p02p:Make;C02p03p:Make;C02p04p:Make;C03p04p:Make;C03p05p:Make;C03p06p:Make;C04p02p:Make;C04p09p:Make;C04p10p:Make;C04p11p:Make;C04p12p:Make;C05p01p:Make;C05p03p:Make;C05p04p:Make;C05p05p:Make;C05p06p:Make;C06p01p:Make;C06p02p:Make;C06p03p:Make;C06p04p:Make;C06p05p:Make;C06p06p:Make;C07p01p:Make;C07p02p:Make;C07p03p:Make;C07p04p:Make;C07p06p:Make;C08p01p:Make;C08p02p:Make;C08p03p:Make;C08p04p:Make;C08p05p:Make;C08p06p:Make;C08p07p:Make;C08p08p:Make;C09p01p:Make;C09p02p:Make;C09p03p:Make;C09p04p:Make;C09p05p:Make;C09p06p:Make;C10p01p:Make;C10p02p:Make;C10p04p:Make;C10p06p:Make;C10p08p:Make;C11p02p:Make;C12p01p:Make;C12p03p:Make;C12p04p:Make;C12p06p:Make;C12p07p:Make;C12p08p:Make;C13p01p:Make;C13p02p:Make;C13p03p:Make;C13p05p:Make;C13p06p:Make;C13p07p:Make;C14p03p:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
