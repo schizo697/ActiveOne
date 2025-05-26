@@ -2,7 +2,7 @@ program C06p06p;
 
 uses
   Vcl.Forms,
-  C06p06u in 'C06p06u.pas' {GrammarCheckForm};
+  C09p06u in 'C09p06u.pas' {GrammarCheckForm};
 
 {$R *.res}
 

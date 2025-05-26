@@ -1,9 +1,9 @@
 object ActionListForm: TActionListForm
   Left = 0
   Top = 0
-  Caption = 'Action list'
-  ClientHeight = 207
-  ClientWidth = 201
+  Caption = 'Action List'
+  ClientHeight = 199
+  ClientWidth = 422
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -16,7 +16,7 @@ object ActionListForm: TActionListForm
   object gbAnswer: TGroupBox
     Left = 32
     Top = 24
-    Width = 145
+    Width = 265
     Height = 161
     Caption = 'What is the answer?'
     TabOrder = 0
@@ -56,6 +56,37 @@ object ActionListForm: TActionListForm
       TabOrder = 0
       TextHint = 'Answer'
     end
+    object btnNew: TButton
+      Left = 168
+      Top = 72
+      Width = 75
+      Height = 25
+      Caption = '&New Sum'
+      TabOrder = 1
+      OnClick = btnNewClick
+    end
+    object btnCheck: TButton
+      Left = 168
+      Top = 108
+      Width = 75
+      Height = 25
+      Caption = '&Check'
+      TabOrder = 2
+      OnClick = btnCheckClick
+    end
+  end
+  object rgDifficultLevel: TRadioGroup
+    Left = 303
+    Top = 24
+    Width = 106
+    Height = 161
+    Caption = 'Difficulty Level'
+    Items.Strings = (
+      '1 Digit'
+      '2 Digits'
+      '3 Digits'
+      '4 Digits')
+    TabOrder = 1
   end
   object MainMenu: TMainMenu
     Top = 64
@@ -74,30 +105,34 @@ object ActionListForm: TActionListForm
       object mmExit: TMenuItem
         Caption = '&Exit'
         ShortCut = 16453
-        OnClick = mmExitClick
       end
     end
     object Level1: TMenuItem
       Caption = '&Level'
       object mm1D: TMenuItem
         Caption = '&1 Digit'
-        ShortCut = 16496
-        OnClick = mm1DClick
       end
       object mm2D: TMenuItem
         Caption = '&2 Digits'
-        ShortCut = 16497
-        OnClick = mm2DClick
       end
       object mm3D: TMenuItem
         Caption = '&3 Digits'
-        ShortCut = 16498
-        OnClick = mm3DClick
       end
       object mm4D: TMenuItem
         Caption = '&4 Digits'
-        ShortCut = 16499
-        OnClick = mm4DClick
+      end
+    end
+    object Menu1: TMenuItem
+      Caption = 'Menu'
+      object mmIncrease: TMenuItem
+        Caption = 'Increase'
+        ShortCut = 16457
+        OnClick = mmIncreaseClick
+      end
+      object mmDecrease: TMenuItem
+        Caption = 'Decrease'
+        ShortCut = 16452
+        OnClick = mmDecreaseClick
       end
     end
   end

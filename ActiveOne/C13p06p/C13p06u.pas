@@ -30,6 +30,8 @@ implementation
 
 {$R *.dfm}
 
+
+
 procedure TValidationForm.ShowAccessResult(const Status: Boolean);
 begin
   if Status then

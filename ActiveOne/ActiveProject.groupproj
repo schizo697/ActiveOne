@@ -84,7 +84,7 @@
         <Projects Include="C06p05p\C06p05p.dproj">
             <Dependencies/>
         </Projects>
-        <Projects Include="C06p06p\C06p06p.dproj">
+        <Projects Include="..\Github\ActiveOne\ActiveOne\C06p06p\C06p06p.dproj">
             <Dependencies/>
         </Projects>
         <Projects Include="C07p01p\C07p01p.dproj">
@@ -453,13 +453,13 @@
         <MSBuild Projects="C06p05p\C06p05p.dproj" Targets="Make"/>
     </Target>
     <Target Name="C06p06p">
-        <MSBuild Projects="C06p06p\C06p06p.dproj"/>
+        <MSBuild Projects="..\Github\ActiveOne\ActiveOne\C06p06p\C06p06p.dproj"/>
     </Target>
     <Target Name="C06p06p:Clean">
-        <MSBuild Projects="C06p06p\C06p06p.dproj" Targets="Clean"/>
+        <MSBuild Projects="..\Github\ActiveOne\ActiveOne\C06p06p\C06p06p.dproj" Targets="Clean"/>
     </Target>
     <Target Name="C06p06p:Make">
-        <MSBuild Projects="C06p06p\C06p06p.dproj" Targets="Make"/>
+        <MSBuild Projects="..\Github\ActiveOne\ActiveOne\C06p06p\C06p06p.dproj" Targets="Make"/>
     </Target>
     <Target Name="C07p01p">
         <MSBuild Projects="C07p01p\C07p01p.dproj"/>

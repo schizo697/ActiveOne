@@ -1,0 +1,14 @@
+program Project1;
+
+uses
+  Vcl.Forms,
+  C06p06u in 'C06p06u.pas' {ActionListForm};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TActionListForm, ActionListForm);
+  Application.Run;
+end.

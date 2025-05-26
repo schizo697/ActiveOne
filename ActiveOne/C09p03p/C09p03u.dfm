@@ -109,19 +109,26 @@ object AdditionTesterForm: TAdditionTesterForm
       Caption = '&Level'
       object mm1D: TMenuItem
         Caption = '&1 Digit'
-        OnClick = mm1DClick
       end
       object mm2D: TMenuItem
         Caption = '&2 Digits'
-        OnClick = mm2DClick
       end
       object mm3D: TMenuItem
         Caption = '&3 Digits'
-        OnClick = mm3DClick
       end
       object mm4D: TMenuItem
         Caption = '&4 Digits'
-        OnClick = mm4DClick
+      end
+    end
+    object Menu1: TMenuItem
+      Caption = 'Menu'
+      object mmIncrease: TMenuItem
+        Caption = 'Increase'
+        OnClick = mmIncreaseClick
+      end
+      object mmDecrease: TMenuItem
+        Caption = 'Decrease'
+        OnClick = mmDecreaseClick
       end
     end
   end

@@ -123,7 +123,7 @@
         <DelphiCompile Include="$(MainSource)">
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
-        <DCCReference Include="C06p06u.pas">
+        <DCCReference Include="C09p06u.pas">
             <Form>GrammarCheckForm</Form>
             <FormType>dfm</FormType>
         </DCCReference>

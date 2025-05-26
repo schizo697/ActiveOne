@@ -27,53 +27,45 @@ type
     btnNew: TButton;
     btnCheck: TButton;
     rgDifficultLevel: TRadioGroup;
+    Menu1: TMenuItem;
+    mmIncrease: TMenuItem;
+    mmDecrease: TMenuItem;
     procedure mmNewClick(Sender: TObject);
     procedure FormCreate(Sender: TObject);
-    procedure mm1DClick(Sender: TObject);
-    procedure mm2DClick(Sender: TObject);
-    procedure mm3DClick(Sender: TObject);
-    procedure mm4DClick(Sender: TObject);
     procedure mmCheckClick(Sender: TObject);
     procedure btnNewClick(Sender: TObject);
     procedure btnCheckClick(Sender: TObject);
+    procedure mmIncreaseClick(Sender: TObject);
+    procedure mmDecreaseClick(Sender: TObject);
   private
-    { Private declarations }
+    procedure GenerateNumbers;
+    procedure SyncLevelToRadioGroup;
+    procedure CheckNumbers;
   public
     { Public declarations }
   end;
 
 var
   AdditionTesterForm: TAdditionTesterForm;
-  Level: Integer = 1;
-  Total: Integer = 0;
-  Num1: Integer;
-  Num2: Integer;
 
 implementation
 
 {$R *.dfm}
+
+var
+  Level: Integer = 1;
+  Total: Integer = 0;
+  Num1: Integer;
+  Num2: Integer;
+  Answer: integer;
+
 
 procedure TAdditionTesterForm.FormCreate(Sender: TObject);
 begin
   Randomize;
 end;
 
-procedure TAdditionTesterForm.btnCheckClick(Sender: TObject);
-var
-  Answer: Integer;
-begin
-  Answer := StrToInt(edtAnswer.Text);
-  if Answer = Total then
-  begin
-    ShowMessage('Answer is correct')
-  end
-  else
-  begin
-    ShowMessage('Answer is incorrect');
-  end;
-end;
-
-procedure TAdditionTesterForm.btnNewClick(Sender: TObject);
+procedure TAdditionTesterForm.GenerateNumbers;
 begin
   case rgDifficultLevel.ItemIndex of
     0:
@@ -102,29 +94,22 @@ begin
   lblSum2.Caption := IntToStr(Num2);
 end;
 
-procedure TAdditionTesterForm.mm1DClick(Sender: TObject);
+procedure TAdditionTesterForm.SyncLevelToRadioGroup;
 begin
-  Level := 1;
+  rgDifficultLevel.ItemIndex := Level - 1;
 end;
 
-procedure TAdditionTesterForm.mm2DClick(Sender: TObject);
+procedure TAdditionTesterForm.btnCheckClick(Sender: TObject);
 begin
-  Level := 2;
+  CheckNumbers;
 end;
 
-procedure TAdditionTesterForm.mm3DClick(Sender: TObject);
+procedure TAdditionTesterForm.btnNewClick(Sender: TObject);
 begin
-  Level := 3;
+  GenerateNumbers;
 end;
 
-procedure TAdditionTesterForm.mm4DClick(Sender: TObject);
-begin
-  Level := 4;
-end;
-
-procedure TAdditionTesterForm.mmCheckClick(Sender: TObject);
-var
-  Answer: integer;
+procedure TAdditionTesterForm.CheckNumbers;
 begin
   Answer := StrToInt(edtAnswer.Text);
   if Answer = Total then
@@ -135,33 +120,30 @@ begin
   ShowMessage('Answer is incorrect');
 end;
 
+procedure TAdditionTesterForm.mmCheckClick(Sender: TObject);
+begin
+  CheckNumbers;
+end;
+
+procedure TAdditionTesterForm.mmIncreaseClick(Sender: TObject);
+begin
+  if Level < 4 then
+    Inc(Level);
+
+  SyncLevelToRadioGroup;
+end;
+
+procedure TAdditionTesterForm.mmDecreaseClick(Sender: TObject);
+begin
+  if Level > 1 then
+    Dec(Level);
+
+  SyncLevelToRadioGroup;
+end;
+
 procedure TAdditionTesterForm.mmNewClick(Sender: TObject);
 begin
-  case Level of
-    1:
-    begin
-      Num1 := Random(9) + 1;
-      Num2 := Random(9) + 1;
-    end;
-    2:
-    begin
-      Num1 := Random(90) + 10;
-      Num2 := Random(90) + 10;
-    end;
-    3:
-    begin
-      Num1 := Random(900) + 100;
-      Num2 := Random(900) + 100;
-    end;
-    4:
-    begin
-      Num1 := Random(9000) + 1000;
-      Num2 := Random(9000) + 1000;
-    end;
-  end;
-  Total := Num1 + Num2;
-  lblSum1.Caption := IntToStr(Num1);
-  lblSum2.Caption := IntToStr(Num2);
+  GenerateNumbers;
 end;
 
 end.

@@ -10,8 +10,7 @@ object UsingParameterForm: TUsingParameterForm
   Font.Height = -12
   Font.Name = 'Segoe UI'
   Font.Style = []
-  OnMouseDown = FormMouseDown
-  OnMouseUp = FormMouseUp
+  OnCreate = FormCreate
   TextHeight = 15
   object lblTimer: TLabel
     Left = 88
@@ -22,6 +21,7 @@ object UsingParameterForm: TUsingParameterForm
   end
   object tmTimer: TTimer
     Interval = 5000
+    OnTimer = tmTimerTimer
     Left = 24
     Top = 24
   end

@@ -10,12 +10,10 @@ type
   TUsingParameterForm = class(TForm)
     tmTimer: TTimer;
     lblTimer: TLabel;
-    procedure FormMouseDown(Sender: TObject; Button: TMouseButton;
-      Shift: TShiftState; X, Y: Integer);
-    procedure FormMouseUp(Sender: TObject; Button: TMouseButton;
-      Shift: TShiftState; X, Y: Integer);
+    procedure FormCreate(Sender: TObject);
+    procedure tmTimerTimer(Sender: TObject);
   private
-    { Private declarations }
+    procedure AppMessage(var Msg: TMsg; var Handled: Boolean);
   public
     { Public declarations }
   end;
@@ -27,23 +25,40 @@ implementation
 
 {$R *.dfm}
 
-procedure TUsingParameterForm.FormMouseDown(Sender: TObject; Button: TMouseButton;
-  Shift: TShiftState; X, Y: Integer);
+procedure TUsingParameterForm.AppMessage(var Msg: TMsg; var Handled: Boolean);
+var
+  TargetControl: TControl;
 begin
-  if Button = mbRight then
-  begin
-    tmTimer.Enabled := False;
+  TargetControl := FindVCLWindow(Mouse.CursorPos);
+
+  case Msg.message of
+    WM_RBUTTONUP:
+      if (TargetControl <> nil) and (TargetControl = Self) then
+      begin
+       tmTimer.Enabled := False;
+      end;
+
+    WM_RBUTTONDOWN:
+      if (TargetControl <> nil) and (TargetControl = Self) then
+      begin
+        tmTimer.Enabled := True;
+        lblTimer.Caption := 'Timer: ' + TimeToStr(Time);
+      end;
   end;
 end;
 
-procedure TUsingParameterForm.FormMouseUp(Sender: TObject; Button: TMouseButton;
-  Shift: TShiftState; X, Y: Integer);
+procedure TUsingParameterForm.FormCreate(Sender: TObject);
 begin
-  if Button = mbRight then
-  begin
-    tmTimer.Enabled := True;
-    lblTimer.Caption := 'Timer: ' + TimeToStr(Time);
-  end;
+  Application.OnMessage := AppMessage;
+  lblTimer.Caption := 'Timer: ' + TimeToStr(Time);
+  tmTimer.Interval := 1000;
+  tmTimer.Enabled := False;
+end;
+
+
+procedure TUsingParameterForm.tmTimerTimer(Sender: TObject);
+begin
+  lblTimer.Caption := 'Timer: ' + TimeToStr(Time);
 end;
 
 end.
